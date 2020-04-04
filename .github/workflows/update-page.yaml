@@ -6,7 +6,6 @@ on:
 
 jobs:
   update-notebooks:
-    if: github.repository == 'github/covid19-dashboard'
     runs-on: ubuntu-latest
     steps:
     
